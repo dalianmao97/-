@@ -16,9 +16,7 @@
 <p><p>   <code>hexo server</code></p></p>
 <p><h3 id="这时就可以在浏览器中输入http-localhost-4000查看网站首页"><a href="#这时就可以在浏览器中输入http-localhost-4000查看网站首页" class="headerlink" title="这时就可以在浏览器中输入http://localhost:4000查看网站首页"></a>这时就可以在浏览器中输入<a href="http://localhost:4000查看网站首页" target="_blank" rel="noopener">http://localhost:4000查看网站首页</a></h3><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>   与github账户关联<br>   首先你得有一个<a href="https://github.com" target="_blank" rel="noopener">github</a>账号,并新建一个名为[your_arrount].github.io的仓库。<br>   然后打开前面创建的blog目录下的_config.yml文件，再修改最下方的deploy为：</p></p>
 <p><blockquote></p>
-<p><p>冒号后面一定要给空格<br>   `</p></p>
-<p><ol></p>
-<p><li>deploy:<br>type: git<br>repo: <a href="https://github.com/your_arrount/your_arrount.github.io.git" target="_blank" rel="noopener">https://github.com/your_arrount/your_arrount.github.io.git</a><br>branch: master`</li><br></ol><br></blockquote></p>
+<p><p>冒号后面一定要给空格<br>   <code>deploy:<br>      type: git<br>      repo: <a href="https://github.com/your_arrount/your_arrount.github.io.git">https://github.com/your_arrount/your_arrount.github.io.git</a><br>      branch: master</code></p><br></blockquote></p>
 <p><h3 id="安装hexo的git部署"><a href="#安装hexo的git部署" class="headerlink" title="安装hexo的git部署"></a>安装hexo的git部署</h3><p>   <code>npm install hexo-deployer-git -S</code></p></p>
 <p><p>   最后将生成静态页面部署到github的仓库中</p></p>
 <p><p>   <code>hexo d -g</code></p></p>
