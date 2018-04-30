@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-30T06:35:49.191Z</updated>
+  <updated>2018-04-30T06:40:07.757Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信支付</title>
+    <link href="http://yoursite.com/2018/04/30/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98/"/>
+    <id>http://yoursite.com/2018/04/30/微信支付/</id>
+    <published>2018-04-30T06:40:07.000Z</published>
+    <updated>2018-04-30T06:40:07.757Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
